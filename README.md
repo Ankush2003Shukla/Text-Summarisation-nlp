@@ -9,36 +9,6 @@ To save time while reading by summarizing a large article or text into fewer lin
 ## Description :-
 
 It usage Term Frequency-Inverse Document Frequency (TF-IDF) algorithm for summarising the article.
-
-## Features :-
-
-You can read the text of your long article in 4 ways :-
-
-![InputTextWays](https://user-images.githubusercontent.com/56812557/212475484-5bd0addf-1b14-4820-b4e2-b21565de8b71.png)
-
-  - By typing text on your own (or copy-paste).
-  - Reading the text from **.txt file**.
-  - Reading the text from **.pdf file**.(You can choose either to get summary of entire pdf or select any page interval).
-  
-  ![PdfInput](https://user-images.githubusercontent.com/56812557/212475479-d012f433-8ebd-4283-9c18-c1ebf552accf.png)
-
-  - Reading the text from **wikipedia page** (All you have to do is to provide the url of that page. Program will automatically scrap the text and summarise it for you).
-  
-Don't worry about Code length xD. It might look lengthy but there are lot of comments for explaination of code(almost 70 comments) and extra spacing for more readability.
-
- 
- ## Output :- 
- 
-   - This is some of the summary text return by the program. Main article was loaded by Wikipedia Page Url -> https://en.wikipedia.org/wiki/Artificial_intelligence
-   
-   ![Summary](https://user-images.githubusercontent.com/56812557/212475483-5fe99afd-5016-428e-877d-e1e0b9406786.png)
-   
-   - Comparison of Original Content vs Summarized content.
-   
-   ![OriginalvsSummaryWordCount](https://user-images.githubusercontent.com/56812557/212475485-d06beadf-1805-49e2-a906-a2745d06b832.png)
-   
-
-
   
 ## Requirements :-
 
@@ -105,11 +75,3 @@ python3 Text-Summarizer.py
 ```
 - Now just follow along with the program.
 
-
-## Bugs and Improvements :-
-
-- No known bugs. Summary can't be as perfect as humans can do.
-- Audio feature will be added soon, so that you can listen the summary too if you want.
-
-
-## Dev :- Prakash Gupta
